@@ -45,6 +45,7 @@ img {
 header {
   display: flex;
   height: 106px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -73,7 +74,23 @@ header {
 .header-contacts {
 }
 
+.person-contacts {
+  display: flex;
+  padding-top: 25px;
+}
+
+.logo-image-icon {
+  padding: 10px;
+}
+
+.person-contacts-txt {
+  padding-right: 20px;
+  padding-left: 1px;
+}
+
 .header-phone {
+  padding-left: 110px;
+  padding-top: 10px;
 }
 
 .header-phone:hover .header-phone-block {
@@ -88,6 +105,11 @@ header {
 }
 
 .card {
+  padding-top: 36px;
+}
+
+.card-image-icon {
+  fill: #3a4047;
 }
 
 .navigation {

@@ -42,6 +42,11 @@ img {
   margin: 0 auto;
 }
 
+.block-button {
+  display: flex;
+  justify-content: center;
+}
+
 header {
   display: flex;
   height: 106px;
@@ -62,13 +67,23 @@ header {
 }
 
 .work-text {
+  font-family: "Clear Sans", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3a4047;
   text-align: center;
   padding-top: 17px;
 }
 
 .work-time {
+  font-family: "Clear Sans", sans-serif;
   text-align: center;
   padding: 17px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #3a4047;
 }
 
 .header-contacts {
@@ -84,6 +99,11 @@ header {
 }
 
 .person-contacts-txt {
+  font-family: "Clear Sans", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #3a4047;
   padding-right: 20px;
   padding-left: 1px;
 }
@@ -165,6 +185,8 @@ header {
   height: 48px;
   background: #1ab0ce;
   border-radius: 2px;
+  border: #1ab0ce solid 1px;
+  color: #ffffff;
 }
 
 .title-button-txt {
@@ -183,16 +205,16 @@ header {
   height: 108px;
   background-color: #1ab0ce;
   border-radius: 60px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .image-phone-svg {
-  margin-left: 40px;
-  margin-top: 10px;
-}
-
-.image-phone {
-  padding-top: 10px;
-  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .button-phone-text {
@@ -345,6 +367,13 @@ header {
 }
 
 .news-btn {
+  width: 190px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #1ab0ce;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-bottom: 49px;
 }
 
 .logo-txt {

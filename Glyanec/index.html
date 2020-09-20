@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css" />
   </head>
   <body>
-    <header>
+    <header class="container">
       <div class="logo">
         <a  href="#"><svg class="logo-image" width="256" height="77"> 
           <use href="./sprite.svg#icon-Logo" class="logo-image-icon"></use>
@@ -30,7 +30,7 @@
       </div>
       <div class="card"></div>
     </header>
-    <section class="navigation">
+    <section class="navigation container">
       <ul class="navigation-block">
         <li class="navigation-list"><a href="#"><p class="navigation-list-txt">Главная</p></a></li>
         <li class="navigation-list"><a href="#"><p class="navigation-list-txt">Продукция</p></a></li>
@@ -43,7 +43,7 @@
        </p></a></li>
       </ul>
     </section>
-    <section class="title-section">
+    <section class="title-section container">
       <h2 class="title">Оперативная печать полиграфии от 1 дня!</h2>
       <p class="title-text">Доставка в любой город Украины</p>
       <button class="title-button"><p class="title-button-txt">Сделать заказ</p></button>
@@ -54,10 +54,11 @@
         <p class="button-phone-text">Перезвоните мне сейчас</p>
       </div>
     </section>
-    <section class="production">
+    <section class="production container">
       <h3 class="production-title">Продукция</h3>
       <div class="production-form">
       <div class="production-block">
+        <div class="production-icon-page"></div>
         <ul class="production-block-txt">
           <h4 class="production-section">Офисная продукция</h4>
           <li class="production-input"><p class="production-input-txt">Визитки</p></li>
@@ -69,6 +70,7 @@
         </ul>
       </div>
       <div class="production-block">
+        <div class="production-icon-road"></div>
         <ul class="production-block-txt">
           <h4 class="production-section">Рекламная продукция</h4>
           <li class="production-input"><p class="production-input-txt"></p>Листовки</li>
@@ -83,6 +85,7 @@
         </ul>
       </div>
       <div class="production-block">
+        <div class="production-icon-book"></div>
         <ul class="production-block-txt">
           <h4 class="production-section">Для Бизнеса</h4>
           <li class="production-input"><p class="production-input-txt"> Каталоги</p></li>
@@ -94,13 +97,13 @@
       </div>
     </div>
     </section>
-    <section class="AboutCompany">
+    <section class="AboutCompany container">
       <h3 class="AboutCompany-title">О нас</h3>
       <h4 class="AboutCompany-text">Оперативная печать полиграфии от 1 дня!</h4>
       <p class="AboutCompany-txt">Перед долгим заплывом намажьтесь солнцезащитным кремом. Вода не спасает от вредного излучения, оно проникает и на глубину 1 м.
         Прежде чем отправиться на пляж, съешьте что-нибудь солененькое или выпейте чай с лимоном. Считается, что тем самым вы предотвратите потерю важных минеральных веществ, которые покидают тело вместе с потом, а загар при этом ляжет ровнее. Находясь на солнце, следует больше двигаться — плавать, делать гимнастику, играть в мяч и т.д. Лучше ходить босиком, чем в тапочках. Не рекомендуется покрывать ногти лаком, пусть они отдохнут и получат солнечные лучи и воздух.</p>
     </section>
-    <section class="news">
+    <section class="news container">
       <h3 class="news-title">Новости</h3>
       <ul class="news-block">
         <li class="news-input">
@@ -118,17 +121,14 @@
       </ul>
       <button class="news-btn"></button>
     </section>
-    <footer>
+    <footer class="container footer ">
       <div class="logo">
-        <a href="#"
-          ><ing
-            class="logo-image"
-            src="./image/Logo.png"
-            width="50"
-            height="50"
-        /></a>
-        <p class="logo-txt">2018 — Все права защищены</p>
+        <a  href="#"><svg class="logo-image" width="256" height="77"> 
+          <use href="./sprite.svg#icon-Logo" class="logo-image-icon"></use>
+        </svg></a> <p class="logo-txt">2018 — Все права защищены</p>
       </div>
+       
+
       <div class="footer-work">
         <p class="work-text">Качественная оперативная цифровая, широкоформатная и сувенирная полиграфия!</p>
         <p class="work-time">Работаем с 9 до 18, вс и сб выходные</p>

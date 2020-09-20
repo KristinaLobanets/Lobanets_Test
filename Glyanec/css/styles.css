@@ -23,24 +23,6 @@ li {
   list-style: none;
 }
 
-h1 {
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-h2 {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-h3 {
-  color: rgb(51, 51, 51);
-  font-size: 14px;
-  font-weight: 700;
-}
-
 a,
 button,
 h1,
@@ -53,6 +35,11 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+}
+
+.container {
+  width: 1166px;
+  margin: 0 auto;
 }
 
 header {
@@ -89,7 +76,12 @@ header {
 .header-phone {
 }
 
+.header-phone:hover .header-phone-block {
+  display: block;
+}
+
 .header-phone-block {
+  display: none;
 }
 
 .header-phone-input {
@@ -208,11 +200,33 @@ header {
 }
 
 .production-block {
+  display: flex;
   width: 370px;
   height: 291px;
   border: 1px solid #dce1e6;
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.production-icon-page {
+  margin-top: 25px;
+  background-image: url("../image/icons/blank-page.svg");
+  width: 52px;
+  height: 62px;
+}
+
+.production-icon-road {
+  margin-top: 25px;
+  background-image: url("../image/icons/road-map.svg");
+  width: 62px;
+  height: 62px;
+}
+
+.production-icon-book {
+  margin-top: 25px;
+  background-image: url("../image/icons/e-reader.svg");
+  width: 45px;
+  height: 62px;
 }
 
 .production-block-txt {
@@ -230,6 +244,7 @@ header {
   text-transform: uppercase;
   color: #3a4047;
   padding-bottom: 24px;
+  text-align: start;
 }
 
 .production-input {
@@ -243,18 +258,42 @@ header {
 }
 
 .AboutCompany-title {
+  font-family: "Clear Sans", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #3a4047;
+  padding-bottom: 13px;
+  margin-top: 20px;
 }
 
 .AboutCompany-text {
+  font-family: "Clear Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #3a4047;
+  padding-bottom: 34px;
 }
 
 .AboutCompany-txt {
+  font-family: "Clear Sans", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: #3a4047;
 }
 
 .news {
 }
 
 .news-title {
+  font-family: "Clear Sans", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #3a4047;
+  padding: 45px;
 }
 
 .news-block {
@@ -267,9 +306,20 @@ header {
 }
 
 .news-data {
+  font-family: "Clear Sans", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 14px;
+  text-align: center;
+  color: #bec7d1;
 }
 
 .news-text {
+  font-family: "Clear Sans", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3a4047;
 }
 
 .news-btn {
@@ -278,13 +328,19 @@ header {
 .logo-txt {
 }
 
-footer {
+.footer {
+  display: flex;
+  height: 159px;
+  background-color: #f7f7f7;
+  padding: 15px;
 }
 
 .footer-work {
 }
 
 .footer-menu {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-menu-input {

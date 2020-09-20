@@ -74,12 +74,12 @@ header {
   color: #3a4047;
   text-align: center;
   padding-top: 17px;
+  padding-bottom: 15px;
 }
 
 .work-time {
   font-family: "Clear Sans", sans-serif;
   text-align: center;
-  padding: 17px;
   font-size: 14px;
   line-height: 16px;
   text-align: right;
@@ -143,6 +143,8 @@ header {
 
 .navigation-list {
   border: 1px solid #e8edf2;
+  height: 56px;
+  padding-top: 18px;
 }
 
 .navigation-list-txt {
@@ -198,9 +200,8 @@ header {
 }
 
 .button-phone {
-  right: 230px;
-  bottom: 50px;
   margin-right: 230px;
+
   width: 108px;
   height: 108px;
   background-color: #1ab0ce;
@@ -210,6 +211,13 @@ header {
   padding: 10px;
   font-size: 14px;
   line-height: 16px;
+}
+
+.top-button {
+  margin-top: 100px;
+}
+
+.down-button {
 }
 
 .image-phone-svg {
@@ -374,37 +382,46 @@ header {
   box-sizing: border-box;
   border-radius: 2px;
   margin-bottom: 49px;
+  color: #1ab0ce;
 }
 
 .logo-txt {
 }
 
 .footer {
-  display: flex;
   height: 159px;
   background-color: #f7f7f7;
+}
+.footer-block {
+  display: flex;
   padding: 15px;
 }
 
 .footer-work {
+  width: 265px;
 }
 
 .footer-menu {
   display: flex;
-  flex-wrap: wrap;
+}
+.footer-menu-block {
+  padding-top: 32px;
+  width: 125px;
+  margin-right: 15px;
 }
 
 .footer-menu-input {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Roboto" sans-serif;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height */
-  text-align: center;
+  text-align: start;
   text-decoration-line: underline;
   color: #3a4047;
+  padding-bottom: 5px;
 }
 
 .footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 180px;
 }

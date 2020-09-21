@@ -32,7 +32,7 @@ h3 {
 }
 
 img {
-  display: block;
+  /* display: block; */
   margin: 0 auto;
   max-width: 100%;
 }
@@ -111,6 +111,7 @@ header {
 .header-phone {
   padding-left: 110px;
   padding-top: 10px;
+  position: relative;
 }
 
 .header-phone:hover .header-phone-block {
@@ -118,6 +119,7 @@ header {
 }
 
 .header-phone-block {
+  position: absolute;
   display: none;
 }
 
@@ -126,6 +128,21 @@ header {
 
 .card {
   padding-top: 36px;
+  position: relative;
+}
+
+.card-colum {
+  top: 35px;
+  right: -5px;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background-color: #1ab0ce;
+  color: #ffffff;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-top: 2px;
+  border-radius: 11px;
 }
 
 .card-image-icon {
@@ -148,12 +165,19 @@ header {
 }
 
 .navigation-list-txt {
-  font-family: "Clear Sans";
+  font-family: "Clear Sans", sans-serif;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   text-transform: uppercase;
   color: #3a4047;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.search-logo {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .title-section {
@@ -201,7 +225,6 @@ header {
 
 .button-phone {
   margin-right: 230px;
-
   width: 108px;
   height: 108px;
   background-color: #1ab0ce;
@@ -211,13 +234,16 @@ header {
   padding: 10px;
   font-size: 14px;
   line-height: 16px;
-}
-
-.top-button {
-  margin-top: 100px;
+  position: absolute;
+  right: -200px;
 }
 
 .down-button {
+  bottom: 100px;
+}
+
+.top-button {
+  bottom: -340px;
 }
 
 .image-phone-svg {
@@ -284,7 +310,6 @@ header {
 .production-block-txt {
   width: 219px;
   height: 200px;
-  padding-right: 121px;
   padding-top: 29px;
   padding-bottom: 26px;
 }
@@ -300,10 +325,19 @@ header {
 }
 
 .production-input {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.production-input-txt {
   font-family: "Clear Sans", sans-serif;
   font-size: 14px;
   line-height: 16px;
   color: #3a4047;
+  padding: 10px;
+  text-align: start;
 }
 
 .AboutCompany {
@@ -375,8 +409,8 @@ header {
 }
 
 .news-btn {
-  width: 190px;
-  height: 32px;
+  width: 200px;
+  height: 48px;
   background: #ffffff;
   border: 1px solid #1ab0ce;
   box-sizing: border-box;
@@ -389,6 +423,7 @@ header {
 }
 
 .footer {
+  position: relative;
   height: 159px;
   background-color: #f7f7f7;
 }
@@ -421,7 +456,13 @@ header {
 }
 
 .footer-contact {
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  width: 180px;
+  width: 200px;
+}
+
+.logo-fb {
+  margin-right: 5px;
+  /* margin-left: 10px; */
 }

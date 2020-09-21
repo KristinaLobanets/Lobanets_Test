@@ -126,12 +126,16 @@ header {
 }
 
 .header-phone-input {
+  display: flex;
+  align-items: center;
   padding: 10px;
   text-align: center;
   background-color: #ffffff;
 }
 
 .phone-icon {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .card {
@@ -261,7 +265,7 @@ header {
 }
 
 .down-button {
-  bottom: 100px;
+  bottom: 140px;
 }
 
 .top-button {
@@ -467,9 +471,24 @@ header {
 
 .footer {
   position: relative;
-  height: 159px;
+  height: 190px;
   background-color: #f7f7f7;
 }
+
+.footer-phone {
+  position: relative;
+}
+
+.footer-phone:hover .footer-phone-block {
+  display: block;
+}
+
+.footer-phone-block {
+  position: absolute;
+  display: none;
+  width: 219px;
+}
+
 .footer-block {
   display: flex;
   padding: 15px;

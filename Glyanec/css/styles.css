@@ -121,9 +121,17 @@ header {
 .header-phone-block {
   position: absolute;
   display: none;
+  width: 219px;
+  height: 167px;
 }
 
 .header-phone-input {
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.phone-icon {
 }
 
 .card {
@@ -257,7 +265,11 @@ header {
 }
 
 .top-button {
-  bottom: -340px;
+  bottom: -30px;
+}
+
+.btn-phone {
+  position: relative;
 }
 
 .image-phone-svg {
@@ -300,6 +312,14 @@ header {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
+.prod-block-container {
+  display: flex;
+}
+
+.prod-block {
+  width: 96px;
+}
+
 .production-icon-page {
   margin-top: 25px;
   background-image: url("../image/icons/blank-page.svg");
@@ -338,20 +358,12 @@ header {
   text-align: start;
 }
 
-.production-input {
-  display: flex;
-  justify-content: start;
-  flex-direction: column;
-  align-items: center;
-}
-
 .production-input-txt {
   font-family: "Clear Sans", sans-serif;
   font-size: 14px;
   line-height: 16px;
   color: #3a4047;
   padding: 10px;
-  text-align: start;
 }
 
 .AboutCompany {
